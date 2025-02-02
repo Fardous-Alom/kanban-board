@@ -1,19 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html, body, #root{
-  @apply bg-black text-white box-border
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
-  width: 4px;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar:horizontal{
-  height: 8px;
-}
-
-::-webkit-scrollbar-thumb{
-  @apply bg-rose-900 rounded-xl
+p {
+  font-size: 1rem;
+  line-height: 1.875rem;
 }
